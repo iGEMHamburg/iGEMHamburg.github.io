@@ -1,15 +1,11 @@
 to dos 
-1. build project 
-    - folder structure  x
-    - connecting filesx x
-2. Nav bar
-    - 2 links and name
-3. portfolio item grid 
-    - images 
-    - titles 
-    - descriptions
-    - animations --> java script
-4. about page
-    - image 
-    - split column layout
-    - content
+1. NavBar - Mia
+2. Welcome Section - Fanny
+3. Lab Gallery, Alea, ?, ?
+4. Impressum und Socialmedia Icons - Marcel
+--------
+-erster Code mit bootstrap anfertigen und neues Grundgerüst für die Website bauen
+-Content von Girls Day erfragen/ Texte über vorherige Jahre
+-Team Fotos
+
+-Mache Website more fancy

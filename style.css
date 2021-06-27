@@ -64,7 +64,14 @@ figure {
     padding: 1rem;
 }
 
+/* ----- Lab Gallery ------*/ 
 
+.item{
+  transition: .5s ease-in-out;
+}
+.item: hover{
+  filter: brightness(80%);
+}
 
 
 

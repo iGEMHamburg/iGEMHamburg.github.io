@@ -67,10 +67,11 @@ figure {
 /* ----- Lab Gallery ------*/ 
 
 .item{
-  transition: .5s ease-in-out;
+  opacity: 1;
 }
 .item: hover{
   opacity: 0.2;
+  transition: .5s ease-in-out;
 }
 .padding{
   padding-bottom: 2rem;
@@ -89,10 +90,12 @@ figure {
 
 /*Social Media Icons*/
 
-.fa-instagram{
+.social a{
   font-size: 4.5em;
   padding: 3rem;
-  color: #517fa4;
+}
+.fa-instagram{
+  color: #517fa8;
 }
 .fa-instagram:hover{
   color: d5d5d5;

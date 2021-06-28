@@ -72,9 +72,33 @@ figure {
 .item: hover{
   opacity: 0.2;
 }
+.padding{
+  padding-bottom: 2rem;
+}
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.welcome hr{
+  border-top: 2px, solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
 
+/*Social Media Icons*/
+.social a{
+  font-size: 4.5em;
+  padding: 3rem;
+}
 
-
+.fa-instagram{
+  color: #517fa4;
+}
+.fa-instagram:hover{
+  color: d5d5d5;
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap

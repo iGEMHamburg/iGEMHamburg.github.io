@@ -88,12 +88,10 @@ figure {
 }
 
 /*Social Media Icons*/
-.social a{
-  font-size: 4.5em;
-  padding: 3rem;
-}
 
 .fa-instagram{
+  font-size: 4.5em;
+  padding: 3rem;
   color: #517fa4;
 }
 .fa-instagram:hover{

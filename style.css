@@ -1,24 +1,328 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+/*---------------------------------------------------------------------------*/
+/*-- Allgemein --*/
+html, body {
+  height:  100%;
+  width: 100%;
+  font-family:  "Poppins", sans-serif;
+  background-color: #ffffff;
 
-
-
-
-
-
-
-
-
-
-/*---Media Queries --*/
-@media (max-width: 992px) {
-
-  }
-@media (max-width: 768px) {
-  
 }
+
+
+/*-- Navbar --*/
+.navbar-brand {
+  padding:  .8rem;;
+  color: #d5d5d5;
+}
+
+
+.navbar-nav l1 {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size:  1.1em !important;
+}
+
+.navbar-brand img {
+  height:  20%;
+  width:  20%;
+}
+/*---------------------------------------------------------------------------*/
+/*-- Welcome Section --*/
+.carousel-inner img {
+  height:  70%;
+  width:  100%;
+}
+
+.carousel-caption {
+  position:  absolute;
+  top:  40%;
+  transform:  translateY(-50%);
+}
+
+.carousel-caption h1 {
+  top:  10%;
+  font-size:  500%;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+  top: ;
+}
+
+.carousel-caption h2 {
+  position:  absolute;
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  top:  99%;
+}
+
+.btn-primary {
+  background-color:  #6648b1;
+  border:  1px solid #563d7c;
+}
+
+.btn-primary: hover {
+  background-color:  #6648b1;
+  border:  1px solid #563d7c;
+}
+
+.jumbotron {
+  padding:  1rem;
+  border-radius:  0;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+/*---------------------------------------------------------------------------*/
+/*-- Our Project--*/
+
+.welcome {
+  width:  100%;
+  margin: 0 autp;
+  padding-top:  2rem;
+  color: #d5d5d5;
+}
+
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width:  95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.col-xs-12, .col-sm-6, .col-md-4 {
+  color: #FFFFFF;
+}
+
+.fa-award {
+  color:  #6acdda;
+}
+
+.fa-dna {
+  color: #6acdda;
+}
+
+.fa-quote-right {
+  color: #6acdda;
+}
+
+.fa-award, .fa-dna, .fa-quote-right {
+  font-size: 4em;
+  margin: 1rem;
+}
+
+/*---------------------------------------------------------------------------*/
+/* ----- Lab Gallery ------*/ 
+
+.item{
+  transition: .5s ease-in-out;
+}
+.item:hover{
+  filter: brightness(80%);
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: .5rem;
+}
+
+/*---------------------------------------------------------------------------*/
+/*Social Media Icons*/
+
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+
+.fa-facebook {
+  color:  #3b5998;
+}
+
+.fa-instagram {
+  color: #517fa4;
+}
+
+.fa-twitter {
+  color:  #00aced;
+}
+
+.fa-youtube {
+  color:  #bb0000;
+}
+
+.fa-facebook:hover
+.fa-instagram:hover
+.fa-twitter:hover
+.fa-youtube:hover {
+  color: #d5d5d5
+}
+
+/*---------------------------------------------------------------------------*/
+/*-- Impressum --*/
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+hr.light {
+  border-top:  1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #d5d5d5;
+}
+
+hr.light-100 {
+  border-top:  1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+/*---------------------------------------------------------------------------*/
+/*---Mobile Style --*/
+@media (max-width: 992px) {
+  .social a {
+    font-size:  4em;
+    padding: 2rem;
+  }
+
+  .carousel-caption {
+    top:  40%;
+}
+
+  .carousel-caption h1 {
+    font-size:  250%;
+}
+
+  .carousel-caption h3 {
+    top:  80%;
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+}
+
+.carousel-caption h2 {
+  position:  absolute;
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+  bottom: 0;
+}
+
+.carousel-caption .btn {
+   position:  absolute;
+  font-size: 95%;
+  padding: 8px 14px;
+}
+  }
+/*----------------------------------------------*/
+@media (max-width: 768px) {
+  .carousel-caption {
+    top:  40%;
+}
+
+  .carousel-caption h1 {
+    font-size:  150%;
+}
+
+  .carousel-caption h3 {
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+}
+
+.carousel-caption h2 {
+  position:  absolute;
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+  bottom: 0;
+}
+
+.carousel-caption .btn {
+   position:  absolute;
+  font-size: 95%;
+  padding: 8px 14px;
+}
+
+.display-4 {
+  font-size: 200%;
+}
+
+  .social a {
+    font-size:  2.5em;
+    padding: 1.2rem;
+  }
+}
+
+/*----------------------------------------------*/
 @media (max-width: 576px) {
-  
+    .carousel-caption {
+    top:  40%;
+}
+
+  .carousel-caption h1 {
+    font-size:  150%;
+}
+
+  .carousel-caption h3 {
+    font-size: 110%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+}
+
+.carousel-caption h2 {
+  position:  absolute;
+    font-size: 80%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+  bottom: 0;
+}
+
+.carousel-caption .btn {
+   position:  absolute;
+  font-size: 70%;
+  padding: 4px 8px;
+}
+
+.carousel-indicators {
+  display:  none;
+}
+
+.display-4 {
+  font-size: 160%;
+}
+
+  .social a {
+    font-size:  2em;
+    padding: .7rem;
+  }
 }
 
 
@@ -64,42 +368,7 @@ figure {
     padding: 1rem;
 }
 
-/* ----- Lab Gallery ------*/ 
-
-.item{
-  transition: .5s ease-in-out;
-}
-.item:hover{
-  filter: brightness(80%);
-}
-
-.padding{
-  padding-bottom: 2rem;
-}
-.welcome{
-  width: 75%;
-  margin: 0 auto;
-  padding-top: 2rem;
-}
-.welcome hr{
-  border-top: 2px solid #b4b4b4;
-  width: 95%;
-  margin-top: .3rem;
-  margin-bottom: .5rem;
-}
-
-/*Social Media Icons*/
-
-.social a{
-  font-size: 4.5em;
-  padding: 3rem;
-}
-.fa-instagram{
-  color: #517fa8;
-}
-.fa-instagram:hover{
-  color: #d5d5d5;
-}
+/*---------------------------------------------------------------------------*/
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap

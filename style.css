@@ -147,140 +147,6 @@ html, body {
   margin-bottom: .5rem;
 }
 
-/*---------------------------------------------------------------------------*/
-/* ----- Blog ------*/ 
-
-.cta-100 {
-  margin-top: 10px;
-  padding-left: 8%;
-  padding-top: 7%;
-}
-.col-md-4{
-    padding-bottom:20px;
-}
-
-.white {
-  color: #fff !important;
-}
-.mt{float: left;margin-top: -20px;padding-top: 20px;}
-.bg-blue-ui {
-  background-color: #708198 !important;
-}
-figure img{width:300px;}
-
-#blogCarousel {
-  padding-bottom: 100px;
-}
-
-.blog .carousel-indicators {
-  left: 0;
-  top: -50px;
-  height: 50%;
-}
-
-
-/* The colour of the indicators */
-
-.blog .carousel-indicators li {
-  background: #d5d5d5;
-  border-radius: 50%;
-  width: 20px;
-  height: 1px;
-}
-
-.blog .carousel-indicators .active {
-  background: #023459;
-  border-radius: 50%;
-  width: 20px;
-  height: 1px;
-}
-
-
-
-.item-carousel-blog-block {
-  outline: medium none;
-  padding: 15px;
-}
-
-.item-box-blog {
-  border: 5px solid #dadada;
-  text-align: justify;
-  z-index: auto;
-  padding: 20px;
-}
-
-.item-box-blog-image {
-  position: relative;
-}
-
-.item-box-blog-image figure img {
-  width: 100%;
-  height: auto;
-}
-
-.item-box-blog-date {
-  position: absolute;
-  z-index: 5;
-  padding: 4px 20px;
-  top: -20px;
-  right: 8px;
-  background-color: #41cb52;
-}
-
-.item-box-blog-date span {
-  color: #fff;
-  display: block;
-  text-align: center;
-  line-height: 1.2;
-}
-
-.item-box-blog-date span.mon {
-  font-size: 18px;
-}
-
-.item-box-blog-date span.day {
-  font-size: 16px;
-}
-
-.item-box-blog-body {
-  padding: 10px;
-}
-
-.item-heading-blog a h5 {
-  margin: 0;
-  line-height: 1;
-  text-decoration:none;
-  transition: color 0.3s;
-}
-
-.item-box-blog-heading a {
-    text-decoration: none;
-}
-
-
-.item-box-blog-text {
-  max-height: 1000px;
-  overflow: hidden;
-  color: black;
-}
-
-.mt-10 {
-  float: left;
-  margin-top: -10px;
-  padding-top: 10px;
-}
-
-.btn.bg-blue-ui.white.read {
-  cursor: pointer;
-  padding: 4px 20px;
-  float: left;
-  margin-top: 10px;
-}
-
-.btn.bg-blue-ui.white.read:hover {
-  box-shadow: 0px 5px 15px inset #4d5f77;
-}
-
 
 
 /*---------------------------------------------------------------------------*/
@@ -495,7 +361,6 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/mac.png');
   position: fixed;
   display: block;
   top: 0;
@@ -512,6 +377,142 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
+
+
+/*---------------------------------------------------------------------------*/
+/* ----- Blog ------*/ 
+
+.cta-100 {
+  margin-top: 10px;
+  padding-left: 8%;
+  padding-top: 7%;
+}
+.col-md-4{
+    padding-bottom:20px;
+}
+
+.white {
+  color: #fff !important;
+}
+.mt{float: left;margin-top: -20px;padding-top: 20px;}
+.bg-blue-ui {
+  background-color: #708198 !important;
+}
+
+
+#blogCarousel {
+  padding-bottom: 100px;
+}
+
+.blog .carousel-indicators {
+  left: 0;
+  top: -50px;
+  height: 50%;
+}
+
+
+/* The colour of the indicators */
+
+.blog .carousel-indicators li {
+  background: #d5d5d5;
+  border-radius: 50%;
+  width: 20px;
+  height: 1px;
+}
+
+.blog .carousel-indicators .active {
+  background: #023459;
+  border-radius: 50%;
+  width: 20px;
+  height: 1px;
+}
+
+
+.item-carousel-blog-block {
+  outline: medium none;
+  padding: 15px;
+}
+
+.item-box-blog {
+  border: 5px solid #dadada;
+  text-align: justify;
+  z-index: auto;
+  padding: 20px;
+}
+
+.item-box-blog-image {
+  position: relative;
+}
+
+.item-box-blog-image figure img {
+  width: 100%;
+  height: auto;
+}
+
+.item-box-blog-date {
+  position: absolute;
+  z-index: 5;
+  padding: 4px 20px;
+  top: -20px;
+  right: 8px;
+  background-color: #41cb52;
+}
+
+.item-box-blog-date span {
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.item-box-blog-date span.mon {
+  font-size: 18px;
+}
+
+.item-box-blog-date span.day {
+  font-size: 16px;
+}
+
+.item-box-blog-body {
+  padding: 10px;
+}
+
+.item-heading-blog a h5 {
+  margin: 0;
+  line-height: 1;
+  color: #023459;
+  text-decoration:none;
+  transition: color 0.3s;
+}
+
+.item-box-blog-heading a {
+    text-decoration: none;
+}
+
+
+.item-box-blog-text {
+  max-height: 1000px;
+  overflow: hidden;
+  color: black;
+}
+
+.mt-10 {
+  float: left;
+  margin-top: -10px;
+  padding-top: 10px;
+}
+
+.btn.bg-blue-ui.white.read {
+  cursor: pointer;
+  padding: 4px 20px;
+  float: left;
+  margin-top: 10px;
+}
+
+.btn.bg-blue-ui.white.read:hover {
+  box-shadow: 0px 5px 15px inset #4d5f77;
+}
+
 
 /*---------------------------------------------------------------------------*/
 /*

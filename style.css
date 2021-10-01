@@ -190,6 +190,9 @@ figure img{width:300px;}
 
 .blog .carousel-indicators .active {
   background: #0fc9af;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
 }
 
 

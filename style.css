@@ -150,6 +150,8 @@ html, body {
 /*---------------------------------------------------------------------------*/
 /* ----- Blog ------*/ 
 
+
+
 .cta-100 {
   margin-top: 100px;
   padding-left: 8%;
@@ -191,6 +193,9 @@ figure img{width:300px;}
 .blog .carousel-indicators .active {
   background: #0fc9af;
 }
+
+
+
 
 .item-carousel-blog-block {
   outline: medium none;

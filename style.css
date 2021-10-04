@@ -521,7 +521,12 @@ figure {
       margin: 0 auto;
       align-content: center;
     }
-
+.inner-blog-content-container{
+  align-content: center;
+  border: 2px dashed black;
+  margin: 0 auto;
+  padding: 5px;
+}
 
 /*---------------------------------------------------------------------------*/
 /*

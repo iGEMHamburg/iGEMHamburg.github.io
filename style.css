@@ -529,6 +529,10 @@ figure {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+.images-container{
+  transform: rotate(-10deg);
+  white-space: nowrap;
+}
 
 /*---------------------------------------------------------------------------*/
 /*

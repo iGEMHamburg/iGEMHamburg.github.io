@@ -521,13 +521,8 @@ figure {
       margin: 0 auto;
       align-content: center;
     }
-    
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+
+
 /*---------------------------------------------------------------------------*/
 /*
 Extra small (xs) devices (portrait phones, less than 576px)

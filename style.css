@@ -555,6 +555,7 @@ figure {
       border: 5px solid gray;
       padding: 50px;
       margin: 0 auto;
+      background: white;
       align-content: center;
     }
 .inner-blog-content-container{
@@ -565,9 +566,34 @@ figure {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+.inner-blog-content-container2{
+  align-content: center;
+  border: 2px dashed white;
+  margin: 0 auto;
+  padding: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .images-container{
   transform: rotate(-10deg);
   white-space: nowrap;
+}
+
+.sourroundings{
+    background-color: black;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -3;
+}
+
+.sourroundings2{
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  z-index: -3;
 }
 
 /*---------------------------------------------------------------------------*/

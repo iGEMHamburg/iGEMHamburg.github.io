@@ -134,6 +134,8 @@ html, body {
 
 .padding {
   padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .welcome {
   width: 75%;

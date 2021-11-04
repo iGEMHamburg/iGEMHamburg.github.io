@@ -589,7 +589,7 @@ figure {
 }
 
 .sourroundings2{
-  background-image: linear-gradient(to top, balck 50%, white 0%);
+  background-image: url('/images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;

@@ -576,6 +576,13 @@ figure {
   padding-bottom: 5px;
 }
 
+.frame{
+  align-content: center;
+  border: 10px solid black;
+  margin: 0 auto;
+  padding: 0px;
+}
+
 .images-container{
   transform: rotate(-10deg);
   white-space: nowrap;

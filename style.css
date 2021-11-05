@@ -114,6 +114,36 @@ html, body {
   color: #6acdda;
 }
 
+.fa-heartbeat {
+  color: #6acdda;
+    font-size: 4em;
+  margin: 1rem;
+}
+.fa-balance-scale-right {
+  color: #6acdda;
+    font-size: 4em;
+  margin: 1rem;
+}
+
+.fa-balance-scale{
+  color: #6acdda;
+    font-size: 4em;
+  margin: 1rem;
+}
+
+.fa-dollar-sign{
+  color: #6acdda;
+    font-size: 4em;
+  margin: 1rem;
+}
+
+.fa-balance-scale-left{
+  color: #6acdda;
+    font-size: 4em;
+  margin: 1rem;
+}
+
+
 .fa-quote-right {
   color: #6acdda;
 }

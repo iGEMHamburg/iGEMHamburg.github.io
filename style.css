@@ -577,6 +577,15 @@ figure {
   padding-bottom: 5px;
 }
 
+.inner-blog-content-container3{
+  align-content: center;
+  border: 1px dashed white;
+  margin: 0 auto;
+  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
 .frame{
   align-content: center;
   border: 10px solid black;
